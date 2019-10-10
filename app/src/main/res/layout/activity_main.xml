@@ -11,9 +11,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="=SQLite Tutorial - User Management"
-        android:textSize="2dp"
-        android:padding="10dp"/>
+        android:text="ลงชื่อ"
+        android:textSize="20dp"
+        android:padding="10dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,22 +21,22 @@
         android:orientation="vertical">
         <EditText
             android:id="@+id/edittext_userid"
-            android:hint="User ID"
+            android:hint="ID"
             android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
         <EditText
             android:id="@+id/edittext_name"
-            android:hint="User Name"
+            android:hint="ชื่อ"
             android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
         <EditText
             android:id="@+id/edittext_age"
-            android:hint="User Age"
+            android:hint="อายุ"
             android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <LinearLayout
@@ -68,16 +68,13 @@
             android:text="Show All" />
     </LinearLayout>
     <TextView
-        android:id="@+id/textview_reslt"
+        android:id="@+id/textview_result"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
     <LinearLayout
         android:id="@+id/ll_entries"
         android:padding="15dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </LinearLayout>
-    
+        android:layout_height="wrap_content"></LinearLayout>
 </LinearLayout>
